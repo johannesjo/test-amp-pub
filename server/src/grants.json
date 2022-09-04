@@ -54,12 +54,6 @@
     "attributes": "*"
   },
   {
-    "role": "user",
-    "resource": "User",
-    "action": "read:any",
-    "attributes": "*"
-  },
-  {
     "role": "admin",
     "resource": "Order",
     "action": "read:own",
