@@ -65,3 +65,11 @@ model Product {
   orders      Order[]
   updatedAt   DateTime @updatedAt
 }
+
+model Task {
+  createdAt  DateTime  @default(now())
+  estimation DateTime?
+  id         String    @id @default(cuid())
+  title      String?
+  updatedAt  DateTime  @updatedAt
+}
